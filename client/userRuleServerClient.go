@@ -3,9 +3,9 @@ package client
 import (
 	"context"
 	"google.golang.org/grpc"
-	userruleservice "v2ray.com/core/app/router/command"
+	//userruleservice "v2ray.com/core/app/router/command"
 )
-
+/*
 type UserRuleServerClient struct {
 	userruleservice.RuleServerClient
 }
@@ -30,3 +30,4 @@ func (s *UserRuleServerClient) RemveUserRelayRule(email []string) error {
 	})
 	return err
 }
+*/
