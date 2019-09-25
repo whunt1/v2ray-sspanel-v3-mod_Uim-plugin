@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/model"
-	"github.com/rico93/v2ray-sspanel-v3-mod_Uim-plugin/utility"
+	"github.com/whunt1/v2ray-sspanel-v3-mod_Uim-plugin/model"
+	"github.com/whunt1/v2ray-sspanel-v3-mod_Uim-plugin/utility"
 	"google.golang.org/grpc"
 	"strings"
 	"v2ray.com/core"
@@ -165,7 +165,7 @@ func (h *HandlerServiceClient) AddVmessInbound(port uint16, address string, stre
 				User: []*protocol.User{
 					{
 						Level: 0,
-						Email: "rico93@xxx.com",
+						Email: "whunt1@xxx.com",
 						Account: serial.ToTypedMessage(&vmess.Account{
 							Id:      protocol.NewID(uuid.New()).String(),
 							AlterId: 16,
@@ -235,7 +235,7 @@ func (h *HandlerServiceClient) AddMTInbound(port uint16, address string, streams
 				User: []*protocol.User{
 					{
 						Level: 0,
-						Email: "rico93@xxx.com",
+						Email: "whunt1@xxx.com",
 						Account: serial.ToTypedMessage(&mtproto.Account{
 							Secret: utility.MD5(utility.GetRandomString(16)),
 						}),
