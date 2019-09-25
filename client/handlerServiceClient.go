@@ -47,7 +47,7 @@ var CipherTypeMap = map[string]shadowsocks.CipherType{
 	"chacha20-ietf":           shadowsocks.CipherType_CHACHA20_IETF,
 	"chacha20-ploy1305":       shadowsocks.CipherType_CHACHA20_POLY1305,
 	"chacha20-ietf-poly1305":  shadowsocks.CipherType_CHACHA20_POLY1305,
-	"xchacha20-ietf-poly1305": shadowsocks.CipherType_XCHACHA20_POLY1305,
+	//"xchacha20-ietf-poly1305": shadowsocks.CipherType_XCHACHA20_POLY1305,
 }
 
 type HandlerServiceClient struct {
